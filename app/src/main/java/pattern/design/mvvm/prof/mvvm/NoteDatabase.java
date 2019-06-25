@@ -13,7 +13,7 @@ import android.support.annotation.NonNull;
  * Created by Prof-Mohamed Atef on 24/06/2019.
  */
 
-@Database(entities = {Note.class}, version = 1)
+@Database(entities = {Note.class}, version = 1, exportSchema = false)
 public abstract class NoteDatabase extends RoomDatabase {
 
     private static NoteDatabase instance;
